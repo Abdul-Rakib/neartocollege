@@ -15,7 +15,7 @@ export default defineConfig({
     },
   },
   server: {
-    // host: "0.0.0.0",
+    host: "0.0.0.0",
     proxy: {
       "/api": {
         target: "https://print-saathi-backend-c3f95afc5a9f.herokuapp.com",
